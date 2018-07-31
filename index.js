@@ -62,7 +62,7 @@ class Trip{
 
 
   passenger() {
-    return store.drivers.find((passenger) => this.passengerId === passenger.id);
+    return store.passengers.find((passenger) => this.passengerId === passenger.id);
   }
 
   driver() {
